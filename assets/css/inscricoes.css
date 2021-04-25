@@ -1,0 +1,133 @@
+:root {
+    --corpo: 'Montserrat', sans-serif;
+    --azulEscuro: #0C172D
+}
+
+body {
+    align-items: center;
+    background: url(../img/carta.jpg)no-repeat;
+    background-size: cover;
+    color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--corpo);
+    margin: 0rem 0 0 15%;
+    width: 70%;
+}
+
+.conteudo {
+    position: absolute;
+}
+
+.titulo {
+    color: #404040;
+    font-size: 3rem;
+    font-style: italic;
+    margin-bottom: 0;
+    margin-top: 11rem;
+    text-align: center;
+    text-shadow: 2px 2px #fdfdfd;
+}
+
+.formulario__formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 1.75rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #333333;
+}
+
+.formulario__item {
+    border: none;
+    border-radius: 3rem;
+    height: 3rem;
+    margin: 0.75rem;
+    width: 26rem;
+}
+
+#casa {
+    border: none;
+    font-size: 1.5rem;
+    height: 3rem;
+    margin-left: 1rem;
+    padding-left: 9rem;
+    width: 26rem;
+}
+
+option {
+    text-align: center;
+}
+
+select option[value="Sonserina"] {
+    background: rgba(0, 147, 85, 0.9);
+}
+
+select option[value="Grifinoria"] {
+    background: rgba(234, 24, 11, 0.9);
+}
+
+select option[value="Lufa-Lufa"] {
+    background: rgba(255, 229, 100, 0.9);
+}
+
+select option[value="Corvinal"] {
+    background: rgba(39, 68, 175, 0.9);
+}
+
+.botão {
+    background: #e4d4be;
+    border: none;
+    border-radius: 3rem;
+    height: 3rem;
+    margin: 1rem 0 0 7.5rem;
+    width: 13rem;
+}
+
+a {
+    color: inherit;
+    font-size: 5rem;
+}
+
+.container__voltar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#voltar {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-top: 9px;
+}
+
+.rodape {
+    background: rgba(196, 182, 163, 0.55);
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    margin-top: 25rem;
+    width: 100vw;
+}
+
+.rodape__frase {
+    align-self: center;
+    padding-top: 1rem;
+    text-align: center;
+    text-shadow: 2px 2px #333333;
+    width: 45rem;
+}
+
+.moto {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-top: 1rem;
+    text-align: center;
+    text-shadow: 2px 2px #333333;
+}

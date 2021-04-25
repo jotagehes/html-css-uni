@@ -1,0 +1,69 @@
+body{
+    background: #BAA185;
+    color: #fdfdfd;
+    font-family: sans-serif;
+}
+.titulo{
+    color: #fdfdfd;
+    font-size: 5rem;
+    font-weight: 900;
+    margin: 3rem;
+    text-align: center;
+    text-shadow: 5px 5px #333333;
+}
+.instrucoes{
+    background: #414B5F;
+    border-radius: 5rem;
+    color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    height: 10rem;
+    margin: 0 10rem;
+    text-align: center;
+}
+#item{
+    align-self:center ;
+    background: #6f7786;
+    border: none;
+    border-radius: 3rem;
+    color: #fdfdfd;
+    margin: 1rem 0;
+    width: 25rem;
+}
+#botao{
+    align-self:center ;
+    background: #6f7786;
+    border: none;
+    border-radius: 3rem;
+    color: #fdfdfd;
+    width: 25rem;
+}
+#lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+}
+li{
+    margin: 2rem 1rem 1rem 15rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+button{
+    background: #232C39;
+    border: none;
+    border-radius: 3rem;
+    color: #fdfdfd;
+    font-weight: 700;
+    height: 2.2rem;
+    margin-top: 1.75rem;
+    padding: 0 15px;
+}
+footer{
+    text-align: center;
+}
+.rodape__imagem1{
+    height: 40vh;
+}

@@ -1,0 +1,88 @@
+:root {
+    --corpo: 'Montserrat', sans-serif;
+    --azulEscuro: #0C172D
+}
+
+body {
+    background-color: var(--azulEscuro);
+    color: #fdfdfd;
+    font-family: var(--corpo);
+}
+.logo{
+    background: url(../img/hagwarst-logo-branco.png);
+    background-size: 10rem;
+}
+
+main {
+    align-items: center;
+    background: #0e1c38;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.titulo {
+    font-size: 3rem;
+    margin-top: 1rem;
+    padding: 2rem;
+    padding-bottom: 15px;
+    text-align: center;
+    text-shadow: 4px 4px #333333;
+}
+.titulo__2{
+    font-size: 1rem;
+}
+
+.imagem__cabecalho {
+    box-shadow: 8px 8px black;
+    margin: 2rem 0;
+    width: 50%;
+}
+.descricao{
+    text-align: justify;
+    width: 80%;
+}
+.convite__inscricao{
+    margin: 1rem 0 2rem 0;
+}
+.tabela__evento{
+    border: 1px solid;
+    margin-bottom: 1.5rem;
+    border-collapse: separate;
+    border-radius: 1rem;
+    border-spacing: 1rem;
+    padding: 15px;
+}
+.tabela__evento--pai{
+    margin: 1rem;
+}
+.tabela__evento--item{
+    border: 2px solid;
+    padding: 15px;
+    text-align: center;
+}
+a{
+    color: inherit;
+    font-weight: 1000;
+    text-shadow: 2px 2px #0011ff;
+}
+.incricoes{
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+.rodape{
+    align-items: center;
+    background: #070e1b;
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+}
+.rodape__frase{
+    color: #e6e6e6;
+    margin: 3rem 0 0;
+}
+.moto{
+    font-style: italic;
+    margin-top: 2rem;
+}
